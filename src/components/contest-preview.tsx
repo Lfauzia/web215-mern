@@ -5,7 +5,7 @@ const ContestPreview: React.FC<{
   onClick: any;
 }> = ({ contest, onClick }) => {
   const handleClick = (event) => {
-    event.preventDefault();
+    //event.preventDefault();
 
     onClick(contest.id);
   };

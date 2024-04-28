@@ -5,6 +5,7 @@ import { fetchContestList } from "../api-client";
 import ContestPreview from "./contest-preview";
 import Header from "./header";
 
+
 const ContestList = ({ initialContests, onContestClick }) => {
   const [contests, setContests] = useState(
     initialContests ?? [],

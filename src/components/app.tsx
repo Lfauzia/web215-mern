@@ -4,6 +4,7 @@ import Contest from "./contest";
 import ContestList from "./contest-list";
 import AddNewContest from "./add-new-contest";
 
+
 const App = ({ initialData }) => {
   const [page, setPage] = useState<"contestList" | "contest">(
     initialData.currentContest ? "contest" : "contestList",

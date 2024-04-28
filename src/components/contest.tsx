@@ -115,7 +115,7 @@ const Contest = ({ initialContest, onContestListClick }) => {
                     </div>
                   ) : (
                     <div>
-                      {proposedName.name}
+                      {proposedName.name} &nbsp;&nbsp;&nbsp;
                       <button onClick={() => handleDeleteName(proposedName.id)}>Delete</button>
                       <button onClick={() => handleEditName(proposedName)}>Edit</button>
                     </div>
