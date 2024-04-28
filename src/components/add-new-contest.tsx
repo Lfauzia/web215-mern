@@ -5,7 +5,7 @@ const AddNewContest = ({ onSuccess }) => {
   const [showForm, setShowForm] = useState(false);
 
   const handleSubmit = async (event) => {
-    event.preventDefault();
+    //event.preventDefault();
     const form = event.currentTarget;
     const newContestData = {
       contestName: form.contestName.value,

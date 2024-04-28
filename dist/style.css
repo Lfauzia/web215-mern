@@ -3,15 +3,10 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
-    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
-    "Droid Sans", "Helvetica Neue", sans-serif;
-   
+body { 
     background-color:  #faf1e7;
     font-family: 'Halant', serif;
     font-size: 20px;
-    
 }
 
 .container {
@@ -24,7 +19,7 @@ body {
 .header {
   text-align: center;
   margin: 2rem;
-}
+} 
 
 .link {
   cursor: pointer;
@@ -119,3 +114,82 @@ form button {
   transform: translateX(-60%);
   z-index: -1;
 }
+
+footer {  
+  padding: 20px 0px; /* Equal padding on the left and right sides */
+  overflow: auto;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 85%;
+  margin-top: -10px; 
+  margin-bottom: -10px; 
+  }
+
+footer > p {
+  margin: 0 0; 
+}
+
+footer > hr {
+  margin-top: -17px; 
+}
+
+header {
+  text-align: center;
+  max-width: 85%;
+  margin: 0 auto; 
+}
+
+h1, h2 , footer{
+  text-align: center;
+
+}
+
+nav {
+  background-color: #fbe8da;
+  padding: 15px;
+  width: 97%;
+  font-weight: 600; 
+  display: flex; /* Use flexbox */
+  justify-content: space-around; /* Equal space between blocks */
+  border-bottom: 2px solid #ccc;
+}
+
+/* Adjustments for specific elements */
+nav a {
+  color: inherit;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin: 0 15px;
+}
+
+nav a:hover {
+  background-color: #ffe1cc;
+  color: #000000;
+}
+
+a.active {
+  background-color: #ffe1cc;
+  box-shadow: 0 10px 12px  #0000001A;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.homemade-apple-regular {
+  font-family: "Homemade Apple", cursive;
+  font-weight: 400;
+  font-style: normal;  
+  text-align: center;
+}
+
+.logo7 {
+  position:absolute;
+  margin-top: -170px; 
+  display: block;
+  right: 0;
+  z-index: -1; 
+}
+
